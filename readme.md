@@ -17,9 +17,8 @@ Designed for ease of use and includes basic arithmetic operations along with exp
 
 ## Demo 🎬
 
-![Calculator Screenshot #1](https://raw.githubusercontent.com/Xmind404/Calculator-in-JavaScript/refs/heads/main/showcase/photo1.png)  
-![Calculator Screenshot #2](https://raw.githubusercontent.com/Xmind404/Calculator-in-JavaScript/refs/heads/main/showcase/photo2.png)  
-
+![Calculator Screenshot #1](https://raw.githubusercontent.com/Xmind404/Calculator-in-JavaScript/refs/heads/main/showcase/photo1.png)
+![Calculator Screenshot #2](https://raw.githubusercontent.com/Xmind404/Calculator-in-JavaScript/refs/heads/main/showcase/photo2.png)
 ---
 
 ## Getting Started 🛠️
