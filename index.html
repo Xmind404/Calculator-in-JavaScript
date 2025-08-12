@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="calculator" role="application" aria-label="Calculator">
+        <input id="display" type="text" aria-live="polite" aria-label="Calculator display" readonly>
+        <div id="keys" role="group" aria-label="Calculator keyboard">
+            <button data-key="7" aria-label="Digit 7">7</button>
+            <button data-key="8" aria-label="Digit 8">8</button>
+            <button data-key="9" aria-label="Digit 9">9</button>
+            <button id="equal" class="operator-btn" aria-label="Equals">=</button>
+
+            <button data-key="4" aria-label="Digit 4">4</button>
+            <button data-key="5" aria-label="Digit 5">5</button>
+            <button data-key="6" aria-label="Digit 6">6</button>
+            <button id="clear" class="operator-btn" aria-label="Clear">C</button>
+
+            <button data-key="1" aria-label="Digit 1">1</button>
+            <button data-key="2" aria-label="Digit 2">2</button>
+            <button data-key="3" aria-label="Digit 3">3</button>
+            <button id="backspace" class="operator-btn" aria-label="Delete last character">&lt;</button>
+
+            <button data-key="0" aria-label="Digit 0">0</button>
+            <button data-key="." aria-label="Decimal point">.</button>
+            <button data-key="+" class="operator-btn" aria-label="Addition">+</button>
+            <button data-key="-" class="operator-btn" aria-label="Subtraction">-</button>
+
+            <button data-key="*" class="operator-btn" aria-label="Multiplication">*</button>
+            <button data-key="/" class="operator-btn" aria-label="Division">/</button>
+            <button id="pow" class="operator-btn" aria-label="Exponentiation">^</button>
+            <button id="sqrt" class="operator-btn" aria-label="Square root">√</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+<!-- Author: Franciszek Karbowniczek (aka Xmind 404) -->
